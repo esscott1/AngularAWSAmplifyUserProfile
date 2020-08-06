@@ -9,7 +9,7 @@
             "UnauthRoleName": "amplify-profileapp-dev-155124-unauthRole",
             "StackName": "amplify-profileapp-dev-155124",
             "StackId": "arn:aws:cloudformation:us-west-2:620994029232:stack/amplify-profileapp-dev-155124/a58d3b00-d69c-11ea-93f2-02dae2ce3a64",
-            "AmplifyAppId": "d10lxsnaol0qvz"
+            "AmplifyAppId": "d3q0z2kdxmubyd"
         },
         "categories": {
             "auth": {
