@@ -8,6 +8,9 @@ import { ProfileComponent } from './profile/profile.component';
 
 import {AmplifyAngularModule, AmplifyService} from 'aws-amplify-angular';
 
+import { MDBBootstrapModule } from 'angular-bootstrap-md';
+import { FormsModule } from '@angular/forms';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -15,6 +18,8 @@ import {AmplifyAngularModule, AmplifyService} from 'aws-amplify-angular';
     ProfileComponent
   ],
   imports: [
+    FormsModule,
+    MDBBootstrapModule,
     BrowserModule,
     AppRoutingModule,
     AmplifyAngularModule
