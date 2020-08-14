@@ -1,6 +1,17 @@
 # Starting Devlopment
 
+npm i @angular/cli@8.3 in the project root
+(If you do not already have the aws amplify CLI installed do the following 2 steps)
+  npm i - g @aws-amplify/cli
+  amplify configure (you will need an AWS CLI Profile prior to this)
 npm install --save aws-amplify
+npm install --save aws-amplify-angular
+amplify init
+**Create a new profile**
+
+verify build 
+  ng build
+ 
 
 # ProfileApp
 
